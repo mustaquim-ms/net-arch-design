@@ -1,0 +1,19 @@
+{
+    "nodes": [
+        {"id": "R1", "label": "Main Router", "type": "Router"},
+        {"id": "S1", "label": "Core Switch", "type": "Switch"},
+        {"id": "FW1", "label": "Firewall", "type": "Firewall"},
+        {"id": "SRV1", "label": "App Server", "type": "Server"},
+        {"id": "C1", "label": "Client PC", "type": "Client"},
+        {"id": "AP1", "label": "WiFi AP", "type": "Access Point"},
+        {"id": "CL1", "label": "Cloud ISP", "type": "Cloud"}
+    ],
+    "edges": [
+        {"source": "CL1", "target": "R1", "connection": "WAN"},
+        {"source": "R1", "target": "FW1", "connection": "Trunk"},
+        {"source": "FW1", "target": "S1", "connection": "VLAN 10"},
+        {"source": "S1", "target": "SRV1", "connection": "LAN"},
+        {"source": "S1", "target": "C1", "connection": "LAN"},
+        {"source": "S1", "target": "AP1", "connection": "LAN"}
+    ]
+}

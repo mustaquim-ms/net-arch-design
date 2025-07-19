@@ -1,0 +1,17 @@
+// sample input file for testing purposes
+// This file is used to demonstrate the structure of the input data
+// It contains sample data that can be used for testing the application
+// The data is in CSV format and can be easily modified for different test cases
+// Each line represents a record with fields separated by commas
+// Example record: "field1","field2","field3"
+// The first line can be used as a header to describe the fields
+// Ensure that the data is valid and follows the expected format for the application to function correctly
+// Note: This file is not used in production and is only for development purposes
+"field1","field2","field3"
+"sample1","data1","value1"
+"sample2","data2","value2"
+"sample3","data3","value3"
+// Add more sample records as needed for testing purposes
+// This file should be placed in the data directory of the project
+
+

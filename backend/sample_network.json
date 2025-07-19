@@ -1,0 +1,15 @@
+{
+  "devices": [
+    { "id": "Router1", "type": "Router" },
+    { "id": "Switch1", "type": "Switch" },
+    { "id": "Server1", "type": "Server" },
+    { "id": "PC1", "type": "PC" },
+    { "id": "PC2", "type": "PC" }
+  ],
+  "connections": [
+    { "from": "Router1", "to": "Switch1" },
+    { "from": "Switch1", "to": "Server1" },
+    { "from": "Switch1", "to": "PC1" },
+    { "from": "Switch1", "to": "PC2" }
+  ]
+}

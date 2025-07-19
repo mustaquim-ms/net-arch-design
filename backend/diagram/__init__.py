@@ -1,0 +1,1 @@
+# Makes diagram a package

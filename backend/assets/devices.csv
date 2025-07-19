@@ -1,0 +1,9 @@
+id,name,type,layer
+1,Main Router,Router,L3
+2,Core Switch,Switch,L2
+3,Web Server,Server,L3
+4,Firewall-1,Firewall,L3
+5,Employee PC,PC,L2
+6,Reception Laptop,Laptop,L2
+7,Printer Room,Printer,L2
+8,IP Phone-CEO,IP Phone,L2
